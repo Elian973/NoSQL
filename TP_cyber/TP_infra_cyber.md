@@ -37,6 +37,7 @@ docker exec -it <container_id> mongosh "mongodb+srv://cluster0.7zv8v.mongodb.net
 
 - Create a new database called **Galaxies**.
 - Create a new collection called **Stars**.
+
 ![Step3.1](Images/Step3_1.PNG)
 - Insert 5 new documents into the **Stars** collection.
 ![Step3.2](Images/Step3_2.PNG)
