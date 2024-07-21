@@ -66,12 +66,19 @@ docker exec -it <container_id> mongosh "mongodb+srv://cluster0.7zv8v.mongodb.net
 ## Step 4: Backup and Restore Data
 
 - Create a backup of the **Galaxies** database.
+  
 ![Step4.1](Images/Step4_1.PNG)
+
 - Delete the **Galaxies** database.
+  
 ![Step4.2](Images/Step4_2.PNG)
+
 - Restore the **Galaxies** database from the backup and name it **Galaxies**.
+  
 ![Step4.3](Images/Step4_3.PNG)
+
 - Verify that the **Galaxies** database has been restored successfully.
+  
 ![Step4.4](Images/Step4_4.PNG)
 
 ## Step 5: Configure Role-Based Access Control
